@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Cloud storage platform</h1>
+        <h1>Drop your files here 👇</h1>
 
         {!isUserLoggedIn ? (
           <>
