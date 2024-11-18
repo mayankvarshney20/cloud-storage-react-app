@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'uploads')));
 
 // Ensure the uploads directory exists
 const uploadDir = path.join(__dirname, 'uploads');
-if (!fs.existsSync(uploadDir)) {s
+if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir);
 }
 
@@ -49,5 +49,5 @@ app.use((err, req, res, next) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server running on http://40.86.181.37:${PORT}`);
+  console.log(`Server running on http://192.168.29.96:${PORT}`);
 });

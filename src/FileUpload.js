@@ -31,7 +31,7 @@ const FileUpload = () => {
 
     try {
       console.log('Uploading file to server...');
-      const response = await axios.post("http:// 192.168.1.130/upload", formData, {
+      const response = await axios.post('http://192.168.29.96:5000/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
